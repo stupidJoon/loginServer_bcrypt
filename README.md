@@ -1,8 +1,6 @@
 # loginServer 
 
-## API 
-
-### Sign In 
+## Sign In 
 
 **URL** : `\signin` 
 
@@ -37,7 +35,7 @@
 }
 ```
 
-### Sign Out 
+## Sign Out 
 
 **URL** : `\signout` 
 
@@ -53,7 +51,7 @@
 }
 ```
 
-### Sign Up 
+## Sign Up 
 
 **URL** : `\signup` 
 
@@ -78,7 +76,7 @@
 }
 ```
 
-### User Status 
+## User Status 
 
 **URL** : `\status` 
 
