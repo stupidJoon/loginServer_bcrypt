@@ -6,9 +6,9 @@ var exports = module.exports = {};
 const pool = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'user',
-  password: 'password',
-  database: 'database'
+  user: 'test',
+  password: 'test',
+  database: 'test'
 });
 
 module.exports.findId = (id, cb) => {
