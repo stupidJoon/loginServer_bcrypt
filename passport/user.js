@@ -47,6 +47,7 @@ module.exports.findPw = (id, pw, cb) => {
 };
 
 module.exports.signUp = (id, pw) => {
+  console.log('id:', id, ', pw:', pw);
   pool.query('INSERT INTO user VALUES (?, ?)', [id, pw], (error, results, fields) => {
     if (error) throw error;
   });
